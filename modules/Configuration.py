@@ -28,7 +28,7 @@ def init(file_location, data=None):
             print("Failed to automatically copy config. Please do so manually. Error: {0}".format(ex.message))
             exit(1)
     if config.has_option("BOT", "coinconfig"):
-        print('\'coinconfig\' has been deprecated, please use section coin config instead.\n'
+        print('\'coinconfig\' has been removed, please use section coin config instead.\n'
               'See: http://poloniexlendingbot.readthedocs.io/en/latest/configuration.html#config-per-coin')
         exit(1)
     return config
