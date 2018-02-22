@@ -280,7 +280,7 @@ This can be configured in one of two ways.
 
 **Coincfg dictionary**
 
-- ``coinconfig`` is now DEPRECATED, please switch to using separate coin sections as described below.
+- ``coinconfig`` is now REMOVED, please switch to using separate coin sections as described below.
 
 **Separate coin sections**
 
